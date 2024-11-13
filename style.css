@@ -1,0 +1,139 @@
+.mapleFarm {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 70%;
+    height: 200px;
+}
+.bodyStuff {
+    background-color:#e09f3e;
+    width: 70%;
+    padding: 1%;
+    border-radius: 10%;
+}
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.navBar li {
+    display: inline;
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navBar li a {
+    display:block;
+    padding: 8px;
+    background-color: #9e2a2b;
+    color:black;
+    width: 800%
+
+
+}
+.navBar li a:hover {
+    background-color: #e09f3e;
+}
+
+.background {
+    background-color: #fff3b0;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.facility {
+    width: 300px;
+    padding: 5px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.canOfSyrup {
+    width: 300px;
+    padding: 5px;
+    display: block;
+    margin-left: 2.5;
+    margin-right: auto;
+
+}
+
+/*nutrition facts */
+
+.image {
+  width: 250px;
+  float: left;
+  margin: 20px;
+}
+body {
+  font-size: small;
+  line-height: 1.4;
+}
+p {
+  margin: 0;
+}
+
+.performance-facts {
+  border: 1px solid black;
+  margin: 20px;
+  float: left;
+  width: 280px;
+  padding: 0.5rem;
+  table {
+    border-collapse: collapse;
+  }
+}
+.performance-facts__title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 0 0.25rem 0;
+}
+.performance-facts__header {
+  border-bottom: 10px solid black;
+  padding: 0 0 0.25rem 0;
+  margin: 0 0 0.5rem 0;
+  p {
+    margin: 0;
+  }
+}
+.performance-facts__table {
+  width: 100%;
+  thead tr {
+    th,
+    td {
+      border: 0;
+    }
+  }
+  th,
+  td {
+    font-weight: normal;
+    text-align: left;
+    padding: 0.25rem 0;
+    border-top: 1px solid black;
+    white-space: nowrap;
+  }
+  td {
+    &:last-child {
+      text-align: right;
+    }
+  }
+  .blank-cell {
+    width: 1rem;
+    border-top: 0;
+  }
+  .thick-row {
+    th,
+    td {
+      border-top-width: 5px;
+    }
+  }
+}
+.small-info {
+  font-size: 0.7rem;
+}
+

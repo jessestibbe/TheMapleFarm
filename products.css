@@ -1,0 +1,87 @@
+.wrapper2 {
+    background-color: #fff3b0;
+    padding: 1%;
+  }
+
+  /*Navigation Bar*/
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #9e2a2b;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #540b0e;
+    }
+  
+    .navigationBarContainer ul {
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      display:inline-block;
+      vertical-align:top;
+      width: 100%;
+    }
+
+    .can {
+        width: 300px;
+        padding: 5px;
+        display: block;
+      margin-left: left;
+      margin-right: 0;
+    }
+
+    .multiCan {
+        width: 600px;
+        padding: 5px;
+        display: block;
+      margin-left: left;
+      margin-right: 0;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      /*Nutrition facts and text*/
+
+      .container {
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+       }
+       
+       .nutritionFacts {
+         max-width: 100%;
+         max-height:100%;
+       }
+       
+       .priceInfo {
+         font-size: 50px;
+         color:#404c24;
+       }

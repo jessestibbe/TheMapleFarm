@@ -1,0 +1,100 @@
+.wrapper2 {
+    background-color: #fff3b0;
+    padding: 1%;
+  }
+
+  /*Navigation Bar*/
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #9e2a2b;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #540b0e;
+    }
+  
+    .navigationBarContainer ul {
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      display:inline-block;
+      vertical-align:top;
+      width: 100%;
+    }
+
+    /*gallery*/
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0;
+        font-family: Arial;
+      }
+      
+      .header {
+        text-align: center;
+        padding: 32px;
+      }
+      
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      /* Responsive layout - makes a two column-layout instead of four columns FROM W3 Schools! */
+      @media screen and (max-width: 800px) {
+        .column {
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+    
+      /*video dimensions*/
+
+      .video {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
